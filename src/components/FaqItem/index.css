@@ -1,0 +1,40 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #d7dae6;
+  min-width: 50px;
+  width: 95%;
+  margin-top: 30px;
+}
+
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.question {
+  font-family: 'Roboto';
+  color: #52606d;
+  font-size: 14px;
+}
+
+.line {
+  margin: 4px;
+  color: #9aa5b1;
+}
+
+.answer {
+  font-family: 'Roboto';
+  color: #52606d;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}

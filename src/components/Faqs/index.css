@@ -1,0 +1,27 @@
+.app-container {
+  display: flex;
+  background-color: #f1f5f8;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.list-items-container {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 15px;
+  min-height: 60vh;
+  flex-direction: column;
+  display: flex;
+  margin: 30px;
+  align-items: center;
+  width: 80%;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #cb8805;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  padding-top: 40px;
+}
